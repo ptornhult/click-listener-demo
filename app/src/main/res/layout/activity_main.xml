@@ -16,6 +16,15 @@
             android:layout_margin="16dp"
             android:text="Clicked: 0 times"/>
 
+    <Button
+            android:id="@+id/ex2UpdateUiDirectly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ex1UpdateUiDirectly"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"
+            android:text="Clicked: 0 times"/>
+
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
